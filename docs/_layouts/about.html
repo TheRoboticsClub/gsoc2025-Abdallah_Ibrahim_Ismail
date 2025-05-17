@@ -1,0 +1,78 @@
+---
+layout: default
+---
+
+<div class="about-wrapper">
+  <article class="about-content">
+    <header class="page-header">
+      <h1 class="page-title">{{ page.title }}</h1>
+    </header>
+
+    <div class="page-content">
+      {{ content }}
+    </div>
+
+    {% if page.author_profile %}
+      {% include author-profile.html %}
+    {% endif %}
+  </article>
+</div>
+
+<style>
+.about-wrapper {
+  max-width: 850px;
+  margin: 0 auto;
+  padding: 2rem 1.5rem;
+}
+
+.about-content {
+  background: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  padding: 2.5rem;
+}
+
+.page-header {
+  margin-bottom: 2.5rem;
+  border-bottom: 2px solid #f0f0f0;
+  padding-bottom: 1rem;
+}
+
+.page-title {
+  font-size: 2.5rem;
+  color: #333;
+  font-weight: 700;
+  margin: 0;
+}
+
+.page-content {
+  font-family: "system-ui", -apple-system, sans-serif;
+  line-height: 1.8;
+  color: #444;
+}
+
+.page-content p {
+  margin-bottom: 1.5rem;
+  font-size: 1.1rem;
+}
+
+.page-content h2 {
+  color: #222;
+  margin: 2.5rem 0 1rem;
+  font-size: 1.8rem;
+}
+
+@media (max-width: 768px) {
+  .about-content {
+    padding: 1.5rem;
+  }
+  
+  .page-title {
+    font-size: 2rem;
+  }
+  
+  .page-content p {
+    font-size: 1rem;
+  }
+}
+</style>
