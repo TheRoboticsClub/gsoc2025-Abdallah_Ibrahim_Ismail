@@ -1,6 +1,6 @@
 ---
 title:  "Coding Period - Week 1"
-date:   2025-06-06 15:52:01 +0300
+date:   2025-06-06 12:52:01 +0300
 categories: blog
 permalink: /coding-period-week1
 toc_label: Table of Content
@@ -33,4 +33,3 @@ The focus of this week was to establish a foundation for coding standards and pr
 - [`ament_lint` for clean code](https://docs.ros.org/en/rolling/Tutorials/Advanced/Ament-Lint-For-Clean-Code.html)
 - [Python PEP8 Style Guide](https://peps.python.org/pep-0008/)
 - [Black - The uncompromising Python code formatter](https://black.readthedocs.io/en/stable/)
-
