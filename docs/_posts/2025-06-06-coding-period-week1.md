@@ -25,10 +25,10 @@ The focus of this week was to establish a foundation for coding standards and pr
 
 
 ### Next Week Plan
-- [] Finish the **Coding Style Guide**
-- [] Finish IDE setup guide to enforce the **Coding Style Guide**
-- [] Implement linting CI workflows for all 3 repositories
-- [] Conduct survey about other best practices (Branch Protection, pre-commit Hooks, ...)
+- [ ] Finish the **Coding Style Guide**
+- [ ] Finish IDE setup guide to enforce the **Coding Style Guide**
+- [ ] Implement linting CI workflows for all 3 repositories
+- [ ] Conduct survey about other best practices (Branch Protection, pre-commit Hooks, ...)
 
 ### Resources
 - [HSF Training - CI/CD GitHub](https://hsf-training.github.io/hsf-training-cicd-github/)
