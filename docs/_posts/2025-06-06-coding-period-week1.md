@@ -25,10 +25,13 @@ The focus of this week was to establish a foundation for coding standards and pr
 
 
 ### Next Week Plan
-
-
+- [] Finish the **Coding Style Guide**
+- [] Finish IDE setup guide to enforce the **Coding Style Guide**
+- [] Implement linting CI workflows for all 3 repositories
+- [] Conduct survey about other best practices (Branch Protection, pre-commit Hooks, ...)
 
 ### Resources
+- [HSF Training - CI/CD GitHub](https://hsf-training.github.io/hsf-training-cicd-github/)
 - [ROS2 (Humble) Coding Style Guide](https://docs.ros.org/en/humble/The-ROS2-Project/Contributing/Code-Style-Language-Versions.html)
 - [`ament_lint` for clean code](https://docs.ros.org/en/rolling/Tutorials/Advanced/Ament-Lint-For-Clean-Code.html)
 - [Python PEP8 Style Guide](https://peps.python.org/pep-0008/)
