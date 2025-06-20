@@ -15,7 +15,7 @@ The focus of this week was to enforce the coding standards and practices within 
 ### Work Done This Week
 - [X] Enforce branch protections in all JdeRobot repositories
 - [X] Finish the **Coding Style Guide**
-	- [X] Add details for XML and YAML
+	- [X] Add details for CMAKE
 - [X] Finish IDE setup guide to enforce the **Coding Style Guide**
 - [X] RAM repository
     - [X] Implement Python linting CI workflow
