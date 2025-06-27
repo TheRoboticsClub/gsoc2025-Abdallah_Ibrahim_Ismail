@@ -15,7 +15,7 @@ Also, start planning for the second objective of writing tests for the RAM proje
 
 ### Work Done This Week
 - [X] Enforce branch protections in all JdeRobot repositories
-- [X] Deploy **Coding Style Guide**(https://github.com/JdeRobot/RoboticsAcademy/blob/humble-devel/docs/coding_style_guide.md)
+- [X] Deploy [**Coding Style Guide**](https://github.com/JdeRobot/RoboticsAcademy/blob/humble-devel/docs/coding_style_guide.md)
 - [X] Research Pre-commit hooks pros and cons
 - [X] Finish IDE setup guide to enforce the **Coding Style Guide**
 - [X] RAM repository
