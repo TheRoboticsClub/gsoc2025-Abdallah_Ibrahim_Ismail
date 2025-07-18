@@ -10,7 +10,7 @@ sidebar:
 ---
 
 The current focus is to write test for the Robotics Application Manager project.
-I spend the these two weeks reviewing the RAM project structure, writing tests, and improving the code through refactoring and reformatting.
+I spent the these two weeks reviewing the RAM project structure, writing tests, and improving the code through refactoring and reformatting.
 
 
 ### Work Done
