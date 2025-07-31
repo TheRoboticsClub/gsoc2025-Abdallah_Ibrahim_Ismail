@@ -16,6 +16,8 @@ The focus of this week is to refine the launch testing setup for RI, implement t
 - [X] Add launch tests for some RI launch files
 - [X] Setup CI workflow for launch testing
 
+### Notes
+- Use best practices to handle headless testing in CI.
 
 ### Resources
 - [Setup CI/CD for ROS2 project using GitHub - Medium Article](https://medium.com/@shantanuparab99/setup-ci-cd-for-a-ros2-project-using-github-121d62bae348)
