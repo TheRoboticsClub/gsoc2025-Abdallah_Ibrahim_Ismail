@@ -15,6 +15,7 @@ The focus of this week is to refine the launch testing setup for RI, implement t
 ### Work Done
 - [X] Add launch tests for some RI launch files
 - [X] Setup CI workflow for launch testing
+- [ ] Handle headless testing errors in CI
 
 ### Notes
 - Use best practices to handle headless testing in CI.
