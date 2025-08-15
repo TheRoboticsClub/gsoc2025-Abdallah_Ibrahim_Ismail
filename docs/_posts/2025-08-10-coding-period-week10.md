@@ -16,7 +16,7 @@ The focus of this week is to refine the launch testing setup for the RoboticsInf
 ### Work Done
 - [X] Add extra launch tests for launch files of core exercises
 - [X] Handle headless testing errors in CI
-- [ ] Add tests for a Gazebo Harmonic Exercise
+- [X] Add tests for a Gazebo Harmonic Exercise
 - [X] Robotics Academy: Plan frontend tests
 
 ### Notes
