@@ -9,12 +9,51 @@ sidebar:
   nav: "docs"
 ---
 
-The focus of this week was issues with packages conflict to ensure Gazebo Harmonic is used correctly for related tests, and finalize the CI workflows for the RoboticsInfrastructure project.
+The focus of this week was to fix issues with packages conflict to ensure Gazebo Harmonic is used correctly for related tests, and finalize the CI workflows for the RoboticsInfrastructure project.
+
+Also, I finalized the plan for the backend tests for the RoboticsAcademy Repository.
+
+
+#### Backend Testing Plan
+
+The backend testing strategy covers Django models and views, hardware abstraction layer (HAL) interfaces, GUI and console interfaces.
+
+- Django tests validate model creation, relationships, and API endpoints using isolated test data. 
+- HAL interface tests use mocks to simulate ROS messages and hardware, ensuring correct data processing for camera, motors, and laser components. 
+- GUI interface tests verify websocket communication and threading
+- Console interface tests check stream redirection and cleanup. 
+
+All tests should use mock objects to avoid altering the database or requiring simulators.
+
+**Example Tests Structure**
+```
+tests/
+├── conftest.py                 # Pytest configuration and fixtures
+├── django/
+│   ├── test_models.py          # Django model tests
+│   └── test_views.py           # Django view tests
+├── hal_interfaces/
+│   ├── test_camera.py          # Camera interface tests
+│   ├── test_motors.py          # Motors interface tests
+│   └── test_laser.py           # Laser interface tests
+├── gui_interfaces/
+│   ├── test_threading_gui.py   # ThreadingGUI tests
+│   └── test_measuring_gui.py   # MeasuringThreadingGUI tests
+├── console_interfaces/
+│   └── test_console.py         # Console interface tests
+└── mocks/
+    ├── mock_ros.py             # ROS mocks
+    ├── mock_ros_messages.py    # ROS message mocks
+    └── mock_websocket.py       # WebSocket mocks
+```
+
+
 
 ### Work Done
 
 - [X] RoboticsInfrastructure: Fix packages conflict
-- [X] Robotics Infrastructure: Update CI workflow for Gazebo Harmonic tests
+- [X] RoboticsInfrastructure: Update CI workflow for Gazebo Harmonic tests
+- [X] RoboticsAcademy: Finalize backend testing plan
 
 
 ### Resources
