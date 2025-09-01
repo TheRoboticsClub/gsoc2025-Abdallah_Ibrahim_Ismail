@@ -43,8 +43,8 @@ tests/
 - [X] add docstrings to interfaces code
 
 ### Remaining Work
-- [X] Finalize interfaces tests
-- [X] Create CI workflow to enforce tests
+- [ ] Finalize interfaces tests
+- [ ] Create CI workflow to enforce tests
 
 ### Resources
 - [Django Testing - Docs](https://docs.djangoproject.com/en/5.2/topics/testing/overview/)
