@@ -42,6 +42,10 @@ tests/
 - [X] set up interfaces tests
 - [X] add docstrings to interfaces code
 
+### Remaining Work
+- [X] Finalize interfaces tests
+- [X] Create CI workflow to enforce tests
+
 ### Resources
 - [Django Testing - Docs](https://docs.djangoproject.com/en/5.2/topics/testing/overview/)
 - [PyTest Django - Docs](https://pytest-django.readthedocs.io/en/latest/)
