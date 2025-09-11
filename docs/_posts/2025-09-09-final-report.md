@@ -19,8 +19,8 @@ sidebar:
 
 Hello everyone,
 
-This summer, I had the opportunity to contribute to [Robotics Academy](https://jderobot.github.io/RoboticsAcademy/) through the Google Summer of Code 2025 program. My project focused on establishing an automated testing framework for the Robotics Academy (RA), Robotics Infrastructure (RI), and Robotics Application Manager (RAM) repositories. 
-My project proposal can be found [here](https://drive.google.com/file/d/1dFJHO139j73nkt_5qDKmCxGMMtfub-CU/view?usp=sharing).
+This summer, I had the opportunity to contribute to the [JdeRobot organization](https://jderobot.github.io/) through the Google Summer of Code 2025 program. My project focused on establishing an automated testing framework for the Robotics Academy (RA), Robotics Infrastructure (RI), and Robotics Application Manager (RAM) repositories. 
+My project proposal can be found [here](https://drive.google.com/file/d/1JdQieL0hRShddE3Fu0358O3b-H1ZHZGh/view?usp=sharing).
 
 ### About me
 I am a final-year Computer Science student at Ain Shams University, Egypt. My core experience and interests are in Software Development, Infrastructure Engineering, and Robotics. I enjoy the mix of rigorous research and building real products.
