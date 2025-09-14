@@ -13,6 +13,7 @@ sidebar:
 **Organization**: [JdeRobot](https://jderobot.github.io/)  
 **Student**: Abdallah Ismail ([GitHub](https://github.com/Apolo151), [LinkedIn](https://linkedin.com/in/abdallah-ismail15))  
 **Mentors**: Pedro Arias-Perez, Pawan Wadhwani, Miguel Fernandez
+
 **GSoC Project Page**: [Robotics Academy: CI & Testing](https://summerofcode.withgoogle.com/programs/2025/projects/msXOO4mb)
 
 ---
@@ -45,6 +46,10 @@ I started by analyzing the existing codebases and identifying used programming l
 Then conducted a survey within the JdeRobot community to gather feedback and ensure that the style guide met the needs of all contributors. After finalizing the style guide based on the feedback received, I set up automated tools to enforce the style guide, such as linters and formatters, and integrated these tools into the CI pipelines. 
 This ensured that any code changes would be automatically checked for compliance with the style guide before being merged into the main branches.
 
+- [Style Guide Survey](https://github.com/orgs/JdeRobot/discussions/317)
+- [Branch Protections Survey](https://github.com/orgs/JdeRobot/discussions/318)
+- [Final Coding Style Guide](https://github.com/JdeRobot/RoboticsAcademy/blob/humble-devel/docs/coding_style_guide.md)
+
 
 #### Step 2 : Robotics Application Manager (RAM) Tests
 
@@ -54,6 +59,9 @@ The Robotics Application Manager (RAM) is an advanced manager for executing robo
 
 I created a suite of test cases covering all valid and invalid transitions between states, ensuring that the state machine behaved as expected in various scenarios. I also created GitHub Actions workflows to automate the execution of these tests whenever code changes were pushed to the repository. This ensured that any issues were detected early in the development process.
 
+![RAM Tests](assets/images/ram-tests.png)  
+<sub><i>RAM Tests</i></sub>
+
 
 #### Step 3 : Robotics Infrastructure (RI) Tests
 
@@ -62,6 +70,9 @@ After completing the tests for RAM, I moved on to the Robotics Infrastructure (R
 The main focus was creating ROS2 launch tests for the **Launchers** that RI provides.
 
 I first created tests for the main exercises that use Gazebo11 and ROS2 Humble. This involved setting up the test environments, writing launch test files, and validating the expected behaviors. After establishing this testing foundation, I then implemented additional tests for exercises that were newly migrated to use Gazebo Harmonic, ensuring compatibility with the latest simulation platform.
+
+![RI Tests in CI](assets/images/ri-ci.png)  
+<sub><i>RI Tests in CI</i></sub>
 
 #### Step 4 : Robotics Academy (RA) Tests
 
@@ -76,11 +87,17 @@ I focused on creating tests for the most important HAL (Hardware Abstraction Lay
 
 Tests for other components are planned for future contributions.
 
+![RA Tests](assets/images/ra-tests.png)  
+<sub><i>RA Tests</i></sub>
+
 ---
 
 ### Demo Video
 
 Here's a demonstration & visualization of some of the implemented tests for each of the projects:
+
+{% include embed/youtube.html id='3LOUXyXn5NY' %}
+<sub><i>Project Summary \(Youtube Video\)</i></sub>
 
 
 ---

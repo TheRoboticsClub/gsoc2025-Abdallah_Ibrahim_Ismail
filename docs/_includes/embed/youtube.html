@@ -1,0 +1,38 @@
+{%- comment -%}
+Usage:
+  {% include embed/youtube.html id="VIDEO_ID" %}
+  or
+  {% include embed/youtube.html url="https://www.youtube.com/watch?v=VIDEO_ID" %}
+Options:
+  width, height optional (defaults below)
+{%- endcomment -%}
+
+{%- assign vid = include.id -%}
+{%- if include.url and vid == nil -%}
+  {%- capture tmp -%}{{ include.url | split: "v=" | last }}{%- endcapture -%}
+  {%- assign vid = tmp | split: "&" | first -%}
+{%- endif -%}
+
+{%- assign w = include.width | default: "1280" -%}
+{%- assign h = include.height | default: "720" -%}
+
+{%- if vid == nil or vid == "" -%}
+  <!-- include/embed: missing video id -->
+  <div style="background:#f8d7da;color:#721c24;padding:12px;border-radius:6px;">
+    <strong>Video include error:</strong> no id/url provided to include 'embed/youtube.html'.
+  </div>
+{%- else -%}
+  {%- assign aspect_ratio = h | times: 100.0 | divided_by: w -%}
+  <div style="position:relative; padding-bottom: {{ aspect_ratio }}%; height: 0; overflow: hidden;">
+    <iframe
+      src="https://www.youtube-nocookie.com/embed/{{ vid }}?rel=0"
+      width="{{ w }}"
+      height="{{ h }}"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen
+      loading="lazy"
+      style="position:absolute;top:0;left:0;width:100%;height:100%;border:0;">
+    </iframe>
+  </div>
+{%- endif -%}
