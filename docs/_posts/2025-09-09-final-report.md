@@ -96,9 +96,8 @@ Tests for other components are planned for future contributions.
 
 Here's a demonstration & visualization of some of the implemented tests for each of the projects:
 
-{% include embed/youtube.html id='3LOUXyXn5NY' %}
+{% include embed/youtube.html id='_BObEEvCvu0' %}
 <sub><i>Project Summary \(Youtube Video\)</i></sub>
-
 
 ---
 
